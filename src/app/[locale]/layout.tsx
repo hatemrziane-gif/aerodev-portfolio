@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import {
   hasLocale,
@@ -39,6 +40,8 @@ export async function generateMetadata({
   };
 
   return {
+    metadataBase: new URL("https://aerodev-studio.netlify.app"),
+
     title,
     description,
 
