@@ -1,0 +1,132 @@
+
+{
+  "Hero": {
+    "eyebrow": "DÉVELOPPEUR CRÉATIF",
+    "title": "BÂTI POUR",
+    "subtitle": "S'ÉLEVER.",
+    "description": "Je crée des expériences numériques uniques en alliant développement, design et animation.",
+    "cta": "DÉCOUVRIR MES PROJETS"
+  },
+  "Navbar": {
+    "about": "À PROPOS",
+    "projects": "PROJETS",
+    "expertise": "EXPERTISE",
+    "techStack": "TECHNOLOGIES",
+    "contact": "CONTACT",
+    "letsTalk": "PARLONS-EN",
+    "menu": "MENU",
+    "close": "FERMER",
+    "selectLanguage": "CHOISIR LA LANGUE",
+    "buildSomething": "CRÉONS QUELQUE CHOSE",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "switchLanguage": "Passer en {locale}",
+    "cta": "Parlons ensemble"
+  },
+  "About": {
+    "label": "À PROPOS",
+    "eyebrow": "À PROPOS DE MOI",
+    "titleBefore": "Au-delà du",
+    "titleHighlight": "Code.",
+    "description": "J'associe développement, design et animation pour créer des expériences numériques réfléchies. Mon approche combine réflexion technique et sens du détail visuel.",
+    "featherAlt": "Illustration d'une plume d'aigle dorée",
+    "expertise": {
+      "development": {
+        "title": "Développement",
+        "description": "Créer des expériences numériques fonctionnelles et adaptatives."
+      },
+      "design": {
+        "title": "Design",
+        "description": "Concevoir des interfaces claires et soignées."
+      },
+      "motion": {
+        "title": "Animation",
+        "description": "Donner du caractère aux interfaces grâce au mouvement."
+      }
+    }
+  },
+  "Projects": {
+    "label": "AERODEV — Projets sélectionnés",
+    "titleBefore": "Projets",
+    "titleHighlight": "Choisis.",
+    "description": "Une collection d'expériences numériques conçues avec précision, créativité et intention.",
+    "featured": "01 / Projet à la une",
+    "imageAlt": "Page d'accueil du site web de la clinique vétérinaire Vet101",
+    "projectDescription": "Une expérience numérique moderne conçue pour une clinique vétérinaire, alliant esthétique élégante et expérience centrée sur l'utilisateur.",
+    "viewProject": "Découvrir le projet",
+    "livePreview": "APERÇU EN LIGNE",
+    "viewCode": "VOIR LE CODE SOURCE",
+    "technologies": "TECHNOLOGIES",
+    "nextProject": "PROJET SUIVANT",
+    "comingSoon": "D'AUTRES PROJETS BIENTÔT",
+    "upcomingLabel": "PROCHAIN PROJET",
+    "upcomingDescription": "De nouvelles expériences numériques sont en cours de création. Restez connectés."
+  },
+  "Expertise": {
+    "label": "CE QUE JE PEUX VOUS APPORTER",
+    "titleBefore": "Au-delà du",
+    "titleHighlight": "Visuel.",
+    "description": "Des solutions numériques conçues pour donner vie à vos idées et démarquer votre activité.",
+    "services": {
+      "digital": {
+        "title": "Expériences numériques",
+        "description": "Des sites web modernes conçus autour de votre marque, de votre vision et de vos objectifs."
+      },
+      "interactive": {
+        "title": "Interfaces interactives",
+        "description": "Des interactions engageantes et des détails soignés qui donnent vie à chaque expérience."
+      },
+      "business": {
+        "title": "Sites web professionnels",
+        "description": "Une présence en ligne professionnelle qui renforce la confiance et vous rapproche de votre audience."
+      },
+      "performance": {
+        "title": "Performance et optimisation",
+        "description": "Des sites web rapides, adaptatifs et bien structurés pour une expérience utilisateur fluide."
+      }
+    },
+    "closing": "VOUS AVEZ UN PROJET EN TÊTE ?"
+  },
+  "TechStack": {
+    "label": "MON UNIVERS TECHNIQUE",
+    "titleBefore": "Conçu avec les",
+    "titleHighlight": "Bons Outils.",
+    "description": "Une sélection de technologies que j'utilise pour créer des expériences numériques modernes."
+  },
+  "Contact": {
+    "eyebrow": "RESTONS EN CONTACT",
+    "title": "Vous avez une vision ? Donnons-lui vie.",
+    "description": "Vous avez un projet en tête ? Échangeons sur vos idées et créons quelque chose d'exceptionnel.",
+    "contactInfo": "INFORMATIONS DE CONTACT",
+    "startProject": "DÉMARRER UN PROJET",
+    "name": "Votre nom",
+    "namePlaceholder": "Entrez votre nom",
+    "email": "Votre adresse e-mail",
+    "emailPlaceholder": "Entrez votre adresse e-mail",
+    "projectDetails": "Détails du projet",
+    "messagePlaceholder": "Parlez-moi de votre projet...",
+    "sendMessage": "ENVOYER LE MESSAGE",
+    "sending": "ENVOI EN COURS...",
+    "success": "Votre message a été envoyé avec succès.",
+    "error": "Une erreur est survenue. Veuillez réessayer.",
+    "location": "BASÉ EN ALGÉRIE",
+    "availability": "DISPONIBLE À L'INTERNATIONAL",
+    "closing": "AU-DELÀ DU CODE. AU-DESSUS DE L'ORDINAIRE."
+  },
+  "Footer": {
+  "eyebrow": "L'ART DE L'ENVOL NUMÉRIQUE",
+  "taglineLine1": "Au-delà du code.",
+  "taglineLine2": "Au-dessus de l'ordinaire.",
+  "specialty": "Développement créatif",
+  "language": "Langue",
+  "copyright": "TOUS DROITS RÉSERVÉS.",
+  "backToTop": "RETOUR EN HAUT",
+  "marquee": {
+    "builtToSoar": "CONÇU POUR S'ÉLEVER",
+    "beyondLimits": "AU-DELÀ DES LIMITES",
+    "speedMeetsPrecision": "LA VITESSE ET LA PRÉCISION",
+    "designWithoutBoundaries": "UN DESIGN SANS FRONTIÈRES",
+    "craftedToStandOut": "CRÉÉ POUR SE DÉMARQUER"
+  }
+}
+}

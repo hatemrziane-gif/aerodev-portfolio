@@ -1,26 +1,192 @@
+
 @import "tailwindcss";
 
+/* =================================
+   AERODEV — DESIGN TOKENS
+================================= */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand Colors */
+  --brand-obsidian: #090b0f;
+  --brand-dark-surface: #15191f;
+
+  /* Main Brand Gold */
+  --brand-gold: #c58b2d;
+  --brand-champagne: #c58b2d;
+  --brand-soft-gold: #e8b45d;
+  --brand-antique-gold: #b77a26;
+  --brand-dark-bronze: #b77a26;
+
+  /* Golden Feather Palette */
+  --brand-pale-gold: #e8b45d;
+  --brand-classic-gold: #e8b45d;
+  --brand-rich-gold: #c58b2d;
+  --brand-antique-bronze: #c58b2d;
+  --brand-deep-bronze: #b77a26;
+  --brand-feather-dark-bronze: #b77a26;
+
+  /* Neutral */
+  --brand-ivory: #f1eee6;
+
+  /* Main Theme */
+  --background: var(--brand-obsidian);
+  --foreground: var(--brand-ivory);
+
+  /* Typography */
+  --font-heading: Georgia, "Times New Roman", serif;
+  --font-body: Arial, Helvetica, sans-serif;
+
+  /* Legacy aliases */
+  --color-obsidian: var(--brand-obsidian);
+  --color-dark-surface: var(--brand-dark-surface);
+
+  --color-gold: var(--brand-gold);
+  --color-champagne: var(--brand-champagne);
+  --color-soft-gold: var(--brand-soft-gold);
+  --color-antique-gold: var(--brand-antique-gold);
+  --color-dark-bronze: var(--brand-dark-bronze);
+
+  --color-pale-gold: var(--brand-pale-gold);
+  --color-classic-gold: var(--brand-classic-gold);
+  --color-rich-gold: var(--brand-rich-gold);
+  --color-antique-bronze: var(--brand-antique-bronze);
+  --color-deep-bronze: var(--brand-deep-bronze);
+  --color-feather-dark-bronze: var(--brand-feather-dark-bronze);
+
+  --color-ivory: var(--brand-ivory);
 }
+
+/* =================================
+   TAILWIND THEME
+================================= */
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  /* Base */
+  --color-obsidian: var(--brand-obsidian);
+  --color-dark-surface: var(--brand-dark-surface);
+
+  /* Brand Gold */
+  --color-gold: var(--brand-gold);
+  --color-champagne: var(--brand-champagne);
+  --color-soft-gold: var(--brand-soft-gold);
+  --color-antique-gold: var(--brand-antique-gold);
+  --color-dark-bronze: var(--brand-dark-bronze);
+
+  /* Golden Feather */
+  --color-pale-gold: var(--brand-pale-gold);
+  --color-classic-gold: var(--brand-classic-gold);
+  --color-rich-gold: var(--brand-rich-gold);
+  --color-antique-bronze: var(--brand-antique-bronze);
+  --color-deep-bronze: var(--brand-deep-bronze);
+  --color-feather-dark-bronze: var(--brand-feather-dark-bronze);
+
+  /* Neutral */
+  --color-ivory: var(--brand-ivory);
+
+  /* Typography */
+  --font-display: var(--font-heading);
+  --font-editorial: Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-body);
+
+  --animate-shine: shine 3s ease-in-out infinite;
+
+  @keyframes shine {
+    0% {
+      transform: translateX(-150%);
+    }
+
+    100% {
+      transform: translateX(350%);
+    }
   }
 }
 
+/* =================================
+   RESET
+================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
 body {
+  margin: 0;
+  min-height: 100vh;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* =================================
+   SELECTION
+================================= */
+
+::selection {
+  background: var(--color-champagne);
+  color: var(--color-obsidian);
+}
+
+/* =================================
+   HERO — INITIAL STATE
+================================= */
+
+[data-hero-item] {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.hero-overlay {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* =================================
+   ABOUT — INITIAL STATE
+================================= */
+
+/*
+  About section stays hidden until
+  HomeExperience initializes its transition.
+*/
+
+[data-about-section] {
+  opacity: 0;
+  visibility: hidden;
+
+  background-color: var(--brand-ivory);
+  color: #252820;
+
+  isolation: isolate;
+  will-change: transform;
+}
+
+/*
+  IMPORTANT:
+  Only the feather starts hidden.
+  About text content must remain visible.
+*/
+
+[data-about-feather] {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* =================================
+   REDUCED MOTION
+================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

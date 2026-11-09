@@ -1,0 +1,132 @@
+
+{
+  "Hero": {
+    "eyebrow": "CREATIVE DEVELOPER",
+    "title": "BUILT TO",
+    "subtitle": "RISE.",
+    "description": "I create unique digital experiences by combining development, design and motion.",
+    "cta": "EXPLORE MY PROJECTS"
+  },
+  "Navbar": {
+    "about": "ABOUT",
+    "projects": "PROJECTS",
+    "expertise": "EXPERTISE",
+    "techStack": "TECH STACK",
+    "contact": "CONTACT",
+    "letsTalk": "LET'S TALK",
+    "menu": "MENU",
+    "close": "CLOSE",
+    "selectLanguage": "SELECT LANGUAGE",
+    "buildSomething": "LET'S BUILD SOMETHING",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchLanguage": "Switch to {locale}",
+    "cta": "Let's talk"
+  },
+  "About": {
+    "label": "ABOUT",
+    "eyebrow": "A LITTLE ABOUT ME",
+    "titleBefore": "Beyond the",
+    "titleHighlight": "Code.",
+    "description": "I bring development, design and motion together to create thoughtful digital experiences. My approach combines technical thinking with a strong eye for visual detail.",
+    "featherAlt": "A golden eagle feather artwork",
+    "expertise": {
+      "development": {
+        "title": "Development",
+        "description": "Building responsive and functional digital experiences."
+      },
+      "design": {
+        "title": "Design",
+        "description": "Creating clear, intentional and refined interfaces."
+      },
+      "motion": {
+        "title": "Motion",
+        "description": "Adding movement that gives interfaces character."
+      }
+    }
+  },
+  "Projects": {
+    "label": "AERODEV — Selected Work",
+    "titleBefore": "Selected",
+    "titleHighlight": "Works.",
+    "description": "A collection of digital experiences crafted with precision, creativity and purpose.",
+    "featured": "01 / Featured Project",
+    "imageAlt": "Vet101 veterinary clinic website homepage",
+    "projectDescription": "A modern digital experience designed for a veterinary clinic, combining elegant visuals with a user-focused experience.",
+    "viewProject": "Explore Project",
+    "livePreview": "LIVE PREVIEW",
+    "viewCode": "VIEW SOURCE CODE",
+    "technologies": "TECHNOLOGIES",
+    "nextProject": "NEXT PROJECT",
+    "comingSoon": "MORE PROJECTS COMING SOON",
+    "upcomingLabel": "UPCOMING PROJECT",
+    "upcomingDescription": "New digital experiences are currently taking shape. Stay tuned."
+  },
+  "Expertise": {
+    "label": "WHAT I CAN DO FOR YOU",
+    "titleBefore": "Beyond the",
+    "titleHighlight": "Visual.",
+    "description": "Digital solutions designed to bring your ideas to life and help your business stand out.",
+    "services": {
+      "digital": {
+        "title": "Digital Experiences",
+        "description": "Modern websites built around your brand, vision and business goals."
+      },
+      "interactive": {
+        "title": "Interactive Interfaces",
+        "description": "Engaging interactions and thoughtful details that make every experience feel alive."
+      },
+      "business": {
+        "title": "Business Websites",
+        "description": "Professional online presence that builds trust and connects you with your audience."
+      },
+      "performance": {
+        "title": "Performance & Optimization",
+        "description": "Responsive, fast and well-structured websites for a smoother user experience."
+      }
+    },
+    "closing": "HAVE A PROJECT IN MIND?"
+  },
+  "TechStack": {
+    "label": "MY DIGITAL TOOLKIT",
+    "titleBefore": "Built with the",
+    "titleHighlight": "Right Tools.",
+    "description": "A carefully selected set of technologies I use to build modern digital experiences."
+  },
+  "Contact": {
+    "eyebrow": "LET'S CONNECT",
+    "title": "Have a vision? Let's make it real.",
+    "description": "Have a project in mind? Let's discuss your ideas and create something extraordinary.",
+    "contactInfo": "CONTACT INFORMATION",
+    "startProject": "START A PROJECT",
+    "name": "Your name",
+    "namePlaceholder": "Enter your name",
+    "email": "Your email",
+    "emailPlaceholder": "Enter your email address",
+    "projectDetails": "Project details",
+    "messagePlaceholder": "Tell me about your project...",
+    "sendMessage": "SEND MESSAGE",
+    "sending": "SENDING...",
+    "success": "Your message has been sent successfully.",
+    "error": "Something went wrong. Please try again.",
+    "location": "BASED IN ALGERIA",
+    "availability": "AVAILABLE WORLDWIDE",
+    "closing": "BEYOND THE CODE. ABOVE THE ORDINARY."
+  },
+  "Footer": {
+  "eyebrow": "THE ART OF DIGITAL FLIGHT",
+  "taglineLine1": "Beyond the Code.",
+  "taglineLine2": "Above the Ordinary.",
+  "specialty": "Creative Development",
+  "language": "Language",
+  "copyright": "ALL RIGHTS RESERVED.",
+  "backToTop": "BACK TO TOP",
+  "marquee": {
+    "builtToSoar": "BUILT TO SOAR",
+    "beyondLimits": "BEYOND LIMITS",
+    "speedMeetsPrecision": "SPEED MEETS PRECISION",
+    "designWithoutBoundaries": "DESIGN WITHOUT BOUNDARIES",
+    "craftedToStandOut": "CRAFTED TO STAND OUT"
+  }
+}
+}
